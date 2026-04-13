@@ -2,9 +2,11 @@
 
 A lightweight, type-safe builder for the **STCO Prompt Engineering Framework**.
 
-![npm](https://img.shields.io/npm/v/@lukefryer4/stco-prompt-builder)
-![license](https://img.shields.io/npm/l/@lukefryer4/stco-prompt-builder)
-
+[![npm version](https://img.shields.io/npm/v/@lukefryer4/stco-prompt-builder.svg?style=for-the-badge&color=blue)](https://www.npmjs.com/package/@lukefryer4/stco-prompt-builder)
+[![npm downloads](https://img.shields.io/npm/dt/@lukefryer4/stco-prompt-builder.svg?style=for-the-badge&color=green)](https://www.npmjs.com/package/@lukefryer4/stco-prompt-builder)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@lukefryer4/stco-prompt-builder?style=for-the-badge&color=purple)]()
+[![License](https://img.shields.io/npm/l/@lukefryer4/stco-prompt-builder.svg?style=for-the-badge&color=yellow)]()
 > **Note:** This package is a structural utility for formatting and validating STCO prompts in TypeScript/JavaScript.
 > To generate, grade, and automatically test these prompts using our proprietary AI algorithms, visit the official visual builder at [AI Prompt Architect](https://aipromptarchitect.co.uk).
 

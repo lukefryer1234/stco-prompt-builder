@@ -1,9 +1,9 @@
-# @stco/prompt-builder
+# @lukefryer4/stco-prompt-builder
 
 A lightweight, type-safe builder for the **STCO Prompt Engineering Framework**.
 
-![npm](https://img.shields.io/npm/v/stco-prompt-builder)
-![license](https://img.shields.io/npm/l/stco-prompt-builder)
+![npm](https://img.shields.io/npm/v/@lukefryer4/stco-prompt-builder)
+![license](https://img.shields.io/npm/l/@lukefryer4/stco-prompt-builder)
 
 > **Note:** This package is a structural utility for formatting and validating STCO prompts in TypeScript/JavaScript.
 > To generate, grade, and automatically test these prompts using our proprietary AI algorithms, visit the official visual builder at [AI Prompt Architect](https://aipromptarchitect.co.uk).
@@ -17,11 +17,11 @@ Instead of writing unstructured paragraphs to language models, you break your pr
 ## Installation
 
 ```bash
-npm install stco-prompt-builder
+npm install @lukefryer4/stco-prompt-builder
 # or
-pnpm add stco-prompt-builder
+pnpm add @lukefryer4/stco-prompt-builder
 # or
-yarn add stco-prompt-builder
+yarn add @lukefryer4/stco-prompt-builder
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ yarn add stco-prompt-builder
 Define your prompts with absolute type safety in your codebase.
 
 ```typescript
-import { STCOPrompt } from 'stco-prompt-builder';
+import { STCOPrompt } from '@lukefryer4/stco-prompt-builder';
 
 const prompt: STCOPrompt = {
   system: 'You are a senior React developer and performance expert.',
@@ -46,7 +46,7 @@ const prompt: STCOPrompt = {
 Compile your structured prompt into a unified string formatted perfectly for LLMs (GPT-4, Claude 3, Gemini, etc.).
 
 ```typescript
-import { buildPrompt } from 'stco-prompt-builder';
+import { buildPrompt } from '@lukefryer4/stco-prompt-builder';
 
 // Formats with clean Markdown headers (### System, ### Task, etc.)
 const llmReadyString = buildPrompt(prompt);
@@ -63,7 +63,7 @@ const response = await openai.chat.completions.create({
 Before sending prompts to production models, perform a sanity check to ensure no crucial piece of the framework was left empty or dangerously short.
 
 ```typescript
-import { validatePrompt } from 'stco-prompt-builder';
+import { validatePrompt } from '@lukefryer4/stco-prompt-builder';
 
 const issues = validatePrompt(prompt);
 

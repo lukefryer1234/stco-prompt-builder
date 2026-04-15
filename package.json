@@ -1,7 +1,7 @@
 {
   "name": "@lukefryer4/stco-prompt-builder",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight, type-safe builder for the STCO (System, Task, Context, Output) Prompt Engineering Framework. Reduce AI hallucinations and standardize prompt architecture.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -12,9 +12,23 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "prompt-engineering",
+    "ai",
+    "stco",
+    "chatgpt",
+    "llm",
+    "prompt-builder",
+    "prompt-framework",
+    "ai-architecture"
+  ],
+  "author": "AI Prompt Architect <support@aipromptarchitect.co.uk>",
+  "license": "MIT",
+  "homepage": "https://aipromptarchitect.co.uk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukefryer1234/stco-prompt-builder.git"
+  },
   "packageManager": "pnpm@10.28.0",
   "devDependencies": {
     "@types/node": "^25.6.0",
